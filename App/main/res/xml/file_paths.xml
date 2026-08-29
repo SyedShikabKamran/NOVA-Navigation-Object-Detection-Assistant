@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--
+        Exposes getExternalFilesDir(null) for FileProvider sharing.
+        Maps to: /sdcard/Android/data/com.nova.assistant/files/
+        Used by SettingsScreen to share nova_debug.log via ACTION_SEND.
+    -->
+    <external-files-path
+        name="nova_logs"
+        path="." />
+</paths>
